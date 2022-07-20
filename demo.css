@@ -1,0 +1,257 @@
+/*--------------------------------
+  Top Bannner Style
+---------------------------------*/
+
+.container {
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    width: 1500px;
+    height: 800px;
+    border-radius: 25px;
+
+}
+
+
+
+.top-banner {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+h1 {
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.banner {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+.banner-img img {
+    margin-top: 50px;
+    width: 750px;
+    height: 750px;
+
+}
+
+
+.live {
+    background-color: red;
+    margin-left: 50px;
+    width: 200px;
+    height: 60px;
+    color: whitesmoke;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------
+    Box and Blogs Style
+----------------------------------*/
+
+
+
+button {
+    background-color: whitesmoke;
+    height: 60px;
+    width: 240px;
+    margin-left: 60px;
+    margin-top: 35px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+
+#match {
+    background-color: red;
+}
+
+
+
+
+
+
+
+.box {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.flexible-container {
+    display: flex;
+}
+
+.blogs-vs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 100px;
+}
+
+
+
+
+.blog {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.blogs {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 350px;
+    border: 2px solid white;
+    margin-top: 150px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.vs {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+h2 {
+    margin-left: 65px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.date {
+    margin-left: 75px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
+
+
+/*------------------------------
+   Footer
+-------------------------------*/
+
+.footer {
+    background-color: black;
+    width: 1890px;
+    height: 600px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+h3 {
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+hr {
+    color: dimgrey;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+.goal {
+    color: darkgrey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+
+
+}
+
+
+.goal p {
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.social-icon {
+
+    text-align: center;
+
+    font-size: 50px;
+
+
+
+
+}
+
+.fa-facebook {
+    color: cornflowerblue;
+}
+
+
+
+#you-tube {
+    color: red;
+}
+
+
+#instagram {
+    color: brown;
+}
+
+
+.follow {
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 40px;
+}
+
+.last {
+    color: white;
+    text-align: center;
+    padding-left: 47%;
+    padding-top: 5px;
+}
