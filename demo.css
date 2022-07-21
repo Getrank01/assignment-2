@@ -255,3 +255,168 @@ hr {
     padding-left: 47%;
     padding-top: 5px;
 }
+
+
+
+
+/*------------------------------
+   Media Queries
+------------------------------*/
+
+/*----------------------------
+    Tablet Devices
+---------------------------*/
+
+
+@media screen and (max-width: 1710px) {
+
+
+    .blogs-vs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 300px;
+    }
+
+    .box {
+        display: inline;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+    .flexible-container {
+        display: block;
+        margin-right: 300px;
+        margin-left: 50px;
+    }
+
+    .box {
+        radius: 15px;
+        background-color: white;
+
+
+
+    }
+
+    hr {
+        color: dimgrey;
+        margin-left: 60px;
+        margin-right: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------
+    Media Queries
+  ---------------------------*/
+
+/*-----------------------------
+    Mobile Device
+  ---------------------------*/
+@media screen and (max-width: 500px) {
+
+
+
+    .container {
+
+        color: aliceblue;
+        background-color: black;
+        width: 450px;
+        height: 850px;
+        border-radius: 25px;
+        display: block;
+
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        margin-left: 30px;
+        margin-top: 10px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+
+
+    .banner-img img {
+        margin-top: 50px;
+        width: 400px;
+        height: 342px;
+        margin-left: 30px;
+
+    }
+
+
+    .live {
+        text-align: center;
+        margin-left: 140px;
+    }
+
+
+
+
+    .blogs-vs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5px;
+    }
+
+
+    .footer {
+        background-color: black;
+        width: 500px;
+        height: 800px;
+        font-family: 'Poppins', sans-serif;
+
+
+
+    }
+
+
+
+    .goal {
+        color: darkgrey;
+        display: block;
+        font-size: 50px;
+        margin-bottom: 60px;
+
+        margin-top: 50px;
+    }
+
+    hr {
+        color: dimgrey;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .last {
+        padding-left: 180px;
+        text-align: center;
+    }
+
+
+}

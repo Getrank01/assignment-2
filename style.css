@@ -311,13 +311,55 @@ hr {
   .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
   }
+
+
+
+
+  .view {
+    text-align: center;
+
+
+  }
+
+  .view button {
+    background-color: red;
+    color: aliceblue;
+    font-size: 30px;
+    display: no none;
+
+
+  }
+
 
   .box {
-    display: inline;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 200px;
+    text-align: center;
 
   }
+
+
+
+
+
+  .flexible-container {
+    display: block;
+    margin-left: 400px;
+    margin-right: 600px;
+  }
+
+  hr {
+    color: dimgrey;
+    margin-left: 50px;
+    margin-right: 250px;
+  }
+
+
 }
+
 
 
 
@@ -388,6 +430,7 @@ hr {
   .box {
     radius: 15px;
     background-color: white;
+    margin-left: 10px;
 
 
 
